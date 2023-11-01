@@ -1,0 +1,76 @@
+h1 {text-align: center;
+background-color: #000000;
+color: #ffffff;}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  body {
+    background-image: url('https://oldschool.runescape.wiki/images/Grand_Exchange.png?92e92');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+  }
+  .li{
+    color: #ffffff;
+  }
+  .header {
+    position: fixed;    
+    left: 0;
+    top: 0;
+    width: 100%;
+  
+    text-align: center;
+  }
+  .box {
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  body, h1, h2, p {
+    margin: 0;
+    padding: 20px;
+     text-align: center;
+
+    
+}
+p{
+    text-align: center;
+}
+
+
+
+/* Style sections */
+section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid #000000;
+    color: #ffffff;
+}
